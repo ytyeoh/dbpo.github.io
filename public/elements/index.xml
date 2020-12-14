@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DBPO</title>
-    <link>https://ytyeoh.github.io/dbpo.github.io/public/</link>
-    <description>Recent content on DBPO</description>
+    <title>Elements on DBPO</title>
+    <link>https://ytyeoh.github.io/dbpo.github.io/public/elements/</link>
+    <description>Recent content in Elements on DBPO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ytyeoh.github.io/dbpo.github.io/public/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ytyeoh.github.io/dbpo.github.io/public/elements/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -64,42 +63,6 @@
       
       <guid>https://ytyeoh.github.io/dbpo.github.io/public/elements/image/</guid>
       <description>Image Fit  Gallery         Left &amp;amp; Right  Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.</description>
-    </item>
-    
-    <item>
-      <title>Contact Us</title>
-      <link>https://ytyeoh.github.io/dbpo.github.io/public/contact/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ytyeoh.github.io/dbpo.github.io/public/contact/</guid>
-      <description>          </description>
-    </item>
-    
-    <item>
-      <title>This Is A Generic Page</title>
-      <link>https://ytyeoh.github.io/dbpo.github.io/public/generic/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ytyeoh.github.io/dbpo.github.io/public/generic/</guid>
-      <description>This is a subheading Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus.</description>
-    </item>
-    
-    <item>
-      <title>Bee Chin Heong</title>
-      <link>https://ytyeoh.github.io/dbpo.github.io/public/profile/bch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ytyeoh.github.io/dbpo.github.io/public/profile/bch/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet dui nec dui commodo auctor non eu mauris. Duis varius finibus vestibulum. Praesent aliquam, erat sed dictum feugiat, velit erat iaculis elit, eget iaculis ex libero ac sapien. Sed maximus ut lectus et varius. Nullam posuere velit vitae est consectetur porttitor. Vestibulum tempor felis ante, nec volutpat risus vestibulum ac. Mauris at finibus felis, eu placerat arcu. Sed nec semper nunc.</description>
-    </item>
-    
-    <item>
-      <title>Chang Shen</title>
-      <link>https://ytyeoh.github.io/dbpo.github.io/public/profile/cs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ytyeoh.github.io/dbpo.github.io/public/profile/cs/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet dui nec dui commodo auctor non eu mauris. Duis varius finibus vestibulum. Praesent aliquam, erat sed dictum feugiat, velit erat iaculis elit, eget iaculis ex libero ac sapien. Sed maximus ut lectus et varius. Nullam posuere velit vitae est consectetur porttitor. Vestibulum tempor felis ante, nec volutpat risus vestibulum ac. Mauris at finibus felis, eu placerat arcu. Sed nec semper nunc.</description>
     </item>
     
   </channel>
