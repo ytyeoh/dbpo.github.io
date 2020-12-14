@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ytyeoh.github.io/dbpo.github.io/</loc>
+    <loc>https://ytyeoh.github.io/dbpo.github.io/public/</loc>
   </url>
   
   <url>
-    <loc>https://ytyeoh.github.io/dbpo.github.io/categories/</loc>
+    <loc>https://ytyeoh.github.io/dbpo.github.io/public/categories/</loc>
   </url>
   
   <url>
-    <loc>https://ytyeoh.github.io/dbpo.github.io/tags/</loc>
+    <loc>https://ytyeoh.github.io/dbpo.github.io/public/tags/</loc>
   </url>
   
 </urlset>
