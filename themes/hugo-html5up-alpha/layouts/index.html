@@ -66,8 +66,8 @@
                 {{ end }}
 
                 <!-- Posts -->
-                {{ if .Site.Data.homepage.blog.enable }}
-                {{ with $blogSettings := .Site.Data.homepage.blog }}
+                {{ if .Site.Data.homepage.profile.enable }}
+                {{ with $profileSettings := .Site.Data.homepage.profile }}
                   {{ with .header }}
                   <header class="major">
                       <h2>{{ . }}</h2>
@@ -81,6 +81,7 @@
                                   <span class="image featured"><img src="{{ . }}" alt="" /></span>
                                   {{ end }}
                                   <h3>{{ .Title }}</h3>
+                                  {{ .publishDate }}
                                   {{ with .Date }}<p>{{ .Format "Jan 2, 2006" }}</p>{{ end }}
                                   {{ with .Description }}
                                   <p>{{ . }}</p>
@@ -88,7 +89,7 @@
                                   <p>{{ .Summary }}</p>
                                   {{ end }}
                                   <ul class="actions special">
-                                      <li><a href="{{ .Permalink }}" class="button alt">{{ $blogSettings.buttonText }} </a></li>
+                                      <li><a href="{{ .Permalink }}" class="button alt">{{ $profileSettings.buttonText }} </a></li>
                                   </ul>
                               </section>
                           </div>

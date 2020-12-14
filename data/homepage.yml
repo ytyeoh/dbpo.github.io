@@ -42,7 +42,7 @@ features:
           content: "I4"
 
 ### Blog ###
-blog:
+profile:
   enable: true
   # Leave header text blank to remove entire <section>
   header: "Portfolio"

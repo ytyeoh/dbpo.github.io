@@ -2,18 +2,18 @@
 ####### Changes made here will not effect demo site
 
 languageCode = "en-us"
-title = "Alpha by HTML5 UP"
+title = "DBPO"
 baseURL = "https://ytyeoh.github.io/dbpo.github.io/public"
 theme = "hugo-html5up-alpha"
 disqusShortname = ""
 
 [params]
-  description = "Another fine responsive site template freebie by HTML5 UP."
+  description = "DBPO solution for Digital Marketing"
   images = ["images/pic01.jpg"]
-  author = "Hugo Port: [Nelson/Roberto](https://nelsonroberto.com/)"
-  copyright = "© Untitled. All rights reserved."
-  design = "Design: [HTML5 UP](http://html5up.net/)"
-  mainSections = ["blog"]
+  author = "[Shinajii](https://shinajii.com/)"
+  copyright = "Shinajii © Untitled. All rights reserved."
+  design = "Design: [TATT](http://kikia.co/)"
+  mainSections = ["profile"]
 
 ### Footer Social Media Links ###
 [[params.share]]
@@ -50,9 +50,9 @@ link = "https://www.linkedin.com"
     url = "/elements/"
     weight = 30
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    identifier = "profile"
+    name = "Profile"
+    url = "/profile/"
     weight = 40
   [[menu.main]]
     identifier = "submenu"
@@ -83,3 +83,9 @@ link = "https://www.linkedin.com"
     name = "Option Four"
     url = "#"
     weight = 54
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
