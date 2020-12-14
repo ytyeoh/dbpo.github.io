@@ -1,0 +1,56 @@
+### Banner ###
+banner:
+  enable: true
+  title: "DPBO"
+  content: "Digital Business Outsourcing Process" # Change this if you want something other then the site description
+  buttons:
+    - title: "Contact Us"
+      link: "#"
+      class: "primary"
+    - title: "Learn More"
+      link: "#"
+
+### Highlight ###
+highlight:
+  enable: true
+  header: "Introducing the ultimate mobile app <br /> for doing stuff with your phone"
+  content: "Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br /> adipiscing nunc adipiscing. Condimentum turpis massa."
+  image: "images/pic01.jpg"
+
+### Features ###
+features:
+  enable: true
+  header: "Feature"
+  rows:
+    - items:
+      - title: "Sales Measure & Forecast"
+        icon: "fa-bolt"
+        accent: "accent2" #accent values are 1-8
+        content: "I1"
+      - title: "Marketing Audit"
+        icon: "fa-chart-area"
+        accent: "accent3" #accent values are 1-8
+        content: "I2"
+    - items:
+        - title: "2arketing Strategies"
+          icon: "fa-cloud"
+          accent: "accent4" #accent values are 1-8
+          content: "I3"
+        - title: "Social & Platform Engagement"
+          icon: "fa-lock"
+          accent: "accent5" #accent values are 1-8
+          content: "I4"
+
+### Blog ###
+blog:
+  enable: true
+  # Leave header text blank to remove entire <section>
+  header: "Portfolio"
+  buttonText: "Read More"
+  postCount: 2
+
+### Call to Action ###
+cta:
+  enable: true
+  header: "Sign up for beta access"
+  content: "Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc."
