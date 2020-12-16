@@ -26,20 +26,20 @@ features:
       - title: "Sales Measure & Forecast"
         icon: "fa-bolt"
         accent: "accent2" #accent values are 1-8
-        content: "I1"
+        content: "Sales KPI Sales MoM / MoY Sales Activities & etc..."
       - title: "Marketing Audit"
         icon: "fa-chart-area"
         accent: "accent3" #accent values are 1-8
-        content: "I2"
+        content: "Analytics Report Local vs International Geo Report Timing Report & etc..."
     - items:
-        - title: "2arketing Strategies"
+        - title: "Marketing Strategies"
           icon: "fa-cloud"
           accent: "accent4" #accent values are 1-8
-          content: "I3"
+          content: "Marketing Seasonal Awareness Behavioural Package SEO Ranking"
         - title: "Social & Platform Engagement"
           icon: "fa-lock"
           accent: "accent5" #accent values are 1-8
-          content: "I4"
+          content: "Social Media FB Awareness Video Awareness Website Awareness"
 
 ### Blog ###
 profile:

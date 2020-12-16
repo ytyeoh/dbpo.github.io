@@ -81,7 +81,7 @@
                                   <span class="image featured"><img src="{{ . }}" alt="" /></span>
                                   {{ end }}
                                   <h3>{{ .Title }}</h3>
-                                  {{ .Date }}
+                                  {{.PublishDate }}
                                   {{ with .Date }}<p>{{ .Format "Jan 2, 2006" }}</p>{{ end }}
                                   {{ with .Description }}
                                   <p>{{ . }}</p>
@@ -105,16 +105,7 @@
                 <section id="cta">
                     <h2>{{ .header }}</h2>
                     <p>{{ .content }}</p>
-                    <form>
-                        <div class="row gtr-50 gtr-uniform">
-                            <div class="col-8 col-12-mobilep">
-                                <input type="email" name="email" id="email" placeholder="Email Address" />
-                            </div>
-                            <div class="col-4 col-12-mobilep">
-                                <input type="submit" value="Sign Up" class="fit" />
-                            </div>
-                        </div>
-                    </form>
+                    <a href="http://cfefc.com" class="button"><i class="fab fa-whatsapp"></i> Whatsapp</a>
                 </section>
             {{ end }}
             {{ end }}

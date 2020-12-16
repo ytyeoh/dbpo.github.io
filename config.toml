@@ -6,6 +6,7 @@ title = "DBPO"
 baseURL = "https://ytyeoh.github.io/dbpo.github.io/public"
 theme = "hugo-html5up-alpha"
 disqusShortname = ""
+enableGitInfo = true
 
 [params]
   description = "DBPO solution for Digital Marketing"
@@ -20,6 +21,9 @@ disqusShortname = ""
 title = "facebook"
 icon = "fa-facebook-f" # fontawesome icons https://fontawesome.com/icons?d=gallery&s=brands
 link = "https://www.facebook.com/"
+[frontmatter]
+date = ["publishDate", ":filename", "date", ":fileModTime"]
+publishDate = ["publishDate", ":filename", "date", ":fileModTime"]
 
 [[params.share]]
 title = "twitter"
@@ -54,38 +58,5 @@ link = "https://www.linkedin.com"
     name = "Profile"
     url = "/profile/"
     weight = 40
-  [[menu.main]]
-    identifier = "submenu"
-    name = "Submenu"
-    url = "#"
-    weight = 50
-  [[menu.main]]
-    parent = "submenu"
-    identifier = "one"
-    name = "Option One"
-    url = "#"
-    weight = 51
-  [[menu.main]]
-    parent = "submenu"
-    identifier = "two"
-    name = "Option Two"
-    url = "#"
-    weight = 52
-  [[menu.main]]
-    parent = "submenu"
-    identifier = "three"
-    name = "Option Three"
-    url = "#"
-    weight = 53
-  [[menu.main]]
-    parent = "submenu"
-    identifier = "four"
-    name = "Option Four"
-    url = "#"
-    weight = 54
+  
 
-[frontmatter]
-date = ["date", "publishDate", "lastmod"]
-lastmod = [":git", "lastmod", "date", "publishDate"]
-publishDate = ["publishDate", "date"]
-expiryDate = ["expiryDate"]
