@@ -162,6 +162,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+		text-transform: unset;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -169,7 +170,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 		font-weight: _font(weight);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.25) 0;
-
+		text-transform: capitalize;
 		a {
 			color: inherit;
 			text-decoration: none;

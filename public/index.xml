@@ -6,7 +6,7 @@
     <description>Recent content on DBPO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Aug 2021 18:08:56 +0800</lastBuildDate><atom:link href="https://ytyeoh.github.io/dbpo.github.io/public/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Aug 2021 19:40:26 +0800</lastBuildDate><atom:link href="https://ytyeoh.github.io/dbpo.github.io/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Text</title>
       <link>https://ytyeoh.github.io/dbpo.github.io/public/elements/text/</link>
@@ -63,11 +63,29 @@
     </item>
     
     <item>
+      <title>UFF</title>
+      <link>https://ytyeoh.github.io/dbpo.github.io/public/profile/uff.asia/</link>
+      <pubDate>Fri, 13 Aug 2021 19:40:26 +0800</pubDate>
+      
+      <guid>https://ytyeoh.github.io/dbpo.github.io/public/profile/uff.asia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>carrot mart</title>
       <link>https://ytyeoh.github.io/dbpo.github.io/public/profile/carrotmart.com.my/</link>
-      <pubDate>Fri, 13 Aug 2021 18:08:56 +0800</pubDate>
+      <pubDate>Fri, 13 Aug 2021 19:34:32 +0800</pubDate>
       
       <guid>https://ytyeoh.github.io/dbpo.github.io/public/profile/carrotmart.com.my/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>korea heaven</title>
+      <link>https://ytyeoh.github.io/dbpo.github.io/public/profile/koreaheaven.asia/</link>
+      <pubDate>Fri, 13 Aug 2021 19:25:20 +0800</pubDate>
+      
+      <guid>https://ytyeoh.github.io/dbpo.github.io/public/profile/koreaheaven.asia/</guid>
       <description></description>
     </item>
     
@@ -77,24 +95,6 @@
       <pubDate>Fri, 13 Aug 2021 18:08:25 +0800</pubDate>
       
       <guid>https://ytyeoh.github.io/dbpo.github.io/public/profile/hevolvethelmet.com.asia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UFF</title>
-      <link>https://ytyeoh.github.io/dbpo.github.io/public/profile/uff.asia/</link>
-      <pubDate>Fri, 13 Aug 2021 18:07:47 +0800</pubDate>
-      
-      <guid>https://ytyeoh.github.io/dbpo.github.io/public/profile/uff.asia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>korea heaven</title>
-      <link>https://ytyeoh.github.io/dbpo.github.io/public/profile/koreaheaven.asia/</link>
-      <pubDate>Fri, 13 Aug 2021 18:07:13 +0800</pubDate>
-      
-      <guid>https://ytyeoh.github.io/dbpo.github.io/public/profile/koreaheaven.asia/</guid>
       <description></description>
     </item>
     
