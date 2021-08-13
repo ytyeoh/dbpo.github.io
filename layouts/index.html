@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{- partial "head.html" . -}}
+        {{ template "_internal/opengraph.html" . }}
+    </head>
+    <body class="landing is-preload">
+        <div id="page-wrapper">
+            {{- partial "header.html" . -}}
+
+            <!-- Banner -->
+            <section id="banner">
+            {{ if .Site.Data.homepage.banner.enable }}
+            {{ with .Site.Data.homepage.banner }}
+                <h2>{{ .title }}</h2>
+                <p>{{ with .content }}{{ . }}{{else}}{{ $.Site.Params.description }}{{end}}</p>
+                <ul class="actions special">
+                {{ range .buttons }}
+                    <li><a href="{{ .link }}" class="button {{ .class }}">{{ .title }}</a></li>
+                {{ end }}
+                </ul>
+            {{ end }}
+            {{ end }}
+            </section>
+
+            <!-- Main -->
+            <section id="main" class="container">
+                <!-- Highlight -->
+                {{ if .Site.Data.homepage.highlight.enable }}
+                {{ with .Site.Data.homepage.highlight }}
+                    <section class="box special">
+                        <header class="major">
+                            {{/* Include 'safeHTML' function to render the HTML in strings */}}
+                            <h2>{{ .header | safeHTML }}</h2>
+                            <p>{{ .content | safeHTML }}</p>
+                        </header>
+                        {{ with .image }}
+                        <span class="image featured"><img src="{{ . }}" alt="" /></span>
+                        {{ end }}
+                    </section>
+                {{ end }}
+                {{ end }}
+
+                <!-- Features -->
+                {{ if .Site.Data.homepage.features.enable }}
+                {{ with .Site.Data.homepage.features }}
+                  {{ with .header }}
+                    <header class="major">
+                        <h2>{{ . }}</h2>
+                    </header>
+                    {{ end }}
+                    <section class="box special features">
+                        {{ range .rows }}
+                        <div class="features-row">
+                            {{ range .items }}
+                            <section>
+                                <span class="icon solid major {{ .icon }} {{ .accent }}"></span>
+                                <h3>{{ .title }}</h3>
+                                <p>{{ .content }}</p>
+                            </section>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </section>
+                {{ end }}
+                {{ end }}
+
+                <!-- Posts -->
+                {{ if .Site.Data.homepage.profile.enable }}
+                {{ with $profileSettings := .Site.Data.homepage.profile }}
+                  {{ with .header }}
+                  <header class="major">
+                      <h2>{{ . }}</h2>
+                  </header>
+                  {{ end }}
+                  <div class="row">
+                      {{ range first .postCount (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+                        
+                          <div class="col-6 col-12-narrower">
+                              <section class="box special">
+                                <a href="https://{{.Slug }}">
+                                  {{ with partial "bannerURL" . }}
+                                  <span class="image featured"><img src="{{ . }}" alt=""/></span>
+                                  {{ end }}
+                                  <h3>{{ .Title }}</h3>
+                                </a>
+                              </section>
+                          </div>
+                          
+                      {{ end }}
+                  </div>
+                {{ end }}
+                {{ end }}
+            </section>
+
+            <!-- CTA -->
+            {{ if .Site.Data.homepage.cta.enable }}
+            {{ with .Site.Data.homepage.cta}}
+                <section id="cta">
+                    <h2>{{ .header }}</h2>
+                    <p>{{ .content }}</p>
+                    <a href="{{ .link }}" class="button"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+                </section>
+            {{ end }}
+            {{ end }}
+
+            {{- partial "footer.html" . -}}
+        </div>
+        {{- partial "scripts.html" . -}}
+    </body>
+</html>

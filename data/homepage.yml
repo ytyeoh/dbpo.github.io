@@ -1,56 +1,71 @@
 ### Banner ###
 banner:
   enable: true
-  title: "DPBO"
-  content: "Digital Business Outsourcing Process" # Change this if you want something other then the site description
+  image: #default is 'images/banner.jpg'
+  title: "Shinajii DBPO"
+  content: "" # Change this if you want something other then the site description
   buttons:
     - title: "Contact Us"
       link: "#"
-      class: "primary"
-    - title: "Learn More"
-      link: "#"
+      class: ""
 
 ### Highlight ###
 highlight:
   enable: true
-  header: "Introducing the ultimate mobile app <br /> for doing stuff with your phone"
-  content: "Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br /> adipiscing nunc adipiscing. Condimentum turpis massa."
-  image: "images/pic01.jpg"
+  header: "the passion <br>of<br> businees trasnformation"
+  content: "Lead a way out from pandemic"
+  
 
 ### Features ###
 features:
   enable: true
-  header: "Feature"
   rows:
     - items:
-      - title: "Sales Measure & Forecast"
-        icon: "fa-bolt"
+      - title: "Product Digitalised"
+        icon: "fa-braille"
         accent: "accent2" #accent values are 1-8
-        content: "Sales KPI Sales MoM / MoY Sales Activities & etc..."
-      - title: "Marketing Audit"
-        icon: "fa-chart-area"
+        content: "Full range of Product & services"
+      - title: "One Site Fits All"
+        icon: "fas fa-globe-asia"
         accent: "accent3" #accent values are 1-8
-        content: "Analytics Report Local vs International Geo Report Timing Report & etc..."
+        content: "Responsive Webstore."
     - items:
-        - title: "Marketing Strategies"
-          icon: "fa-cloud"
+        - title: "One Site Links All "
+          icon: "fas fa-project-diagram"
           accent: "accent4" #accent values are 1-8
-          content: "Marketing Seasonal Awareness Behavioural Package SEO Ranking"
-        - title: "Social & Platform Engagement"
-          icon: "fa-lock"
+          content: "Multi platforms. One back end."
+        - title: "Digital Marketing"
+          icon: "fas fa-ad"
           accent: "accent5" #accent values are 1-8
-          content: "Social Media FB Awareness Video Awareness Website Awareness"
+          content: "Precised Targeting."
+    - items:
+        - title: "Customer Support"
+          icon: "fas fa-headset"
+          accent: "accent4" #accent values are 1-8
+          content: "Shinajii. Covers All."
+        - title: "Staff Augmentation"
+          icon: "fas fa-users"
+          accent: "accent5" #accent values are 1-8
+          content: "360 degree coverage."
 
-### Blog ###
 profile:
   enable: true
   # Leave header text blank to remove entire <section>
-  header: "Portfolio"
+  header: "Our customers"
+  buttonText: ""
+  postCount: 6
+
+### Blog ###
+blog:
+  enable: true
+  # Leave header text blank to remove entire <section>
+  header: "Recent Posts"
   buttonText: "Read More"
   postCount: 2
 
 ### Call to Action ###
 cta:
   enable: true
-  header: "Sign up for beta access"
-  content: "Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc."
+  header: "transform your business now"
+  content: ""
+  link: "https://api.whatsapp.com/send?phone=60164864000&text=Hi%2C%20%0AI%20would%20like%20to%20know%20more."
